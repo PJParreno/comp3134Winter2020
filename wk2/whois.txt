@@ -1,0 +1,209 @@
+Domain #1: Twitter.com
+
+Domain Name: TWITTER.COM
+Registry Domain ID: 18195971_DOMAIN_COM-VRSN
+Registrar WHOIS Server: whois.corporatedomains.com
+Registrar URL: http://www.cscglobal.com/global/web/csc/digital-brand-services.html
+Updated Date: 2018-12-07T19:32:35Z
+Creation Date: 2000-01-21T16:28:17Z
+Registry Expiry Date: 2020-01-21T16:28:17Z
+Registrar: CSC Corporate Domains, Inc.
+Registrar IANA ID: 299
+Registrar Abuse Contact Email: domainabuse@cscglobal.com
+Registrar Abuse Contact Phone: 8887802723
+Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+Domain Status: serverDeleteProhibited https://icann.org/epp#serverDeleteProhibited
+Domain Status: serverTransferProhibited https://icann.org/epp#serverTransferProhibited
+Domain Status: serverUpdateProhibited https://icann.org/epp#serverUpdateProhibited
+Name Server: A.R06.TWTRDNS.NET
+Name Server: B.R06.TWTRDNS.NET
+Name Server: C.R06.TWTRDNS.NET
+Name Server: D.R06.TWTRDNS.NET
+Name Server: D01-01.NS.TWTRDNS.NET
+Name Server: D01-02.NS.TWTRDNS.NET
+Name Server: NS3.P34.DYNECT.NET
+Name Server: NS4.P34.DYNECT.NET
+DNSSEC: unsigned	
+
+Domain #2 Reddit.com 
+
+Domain Name: REDDIT.COM
+Registry Domain ID: 153584275_DOMAIN_COM-VRSN
+Registrar WHOIS Server: whois.markmonitor.com
+Registrar URL: http://www.markmonitor.com
+Updated Date: 2017-07-12T19:18:12Z
+Creation Date: 2005-04-29T17:59:19Z
+Registry Expiry Date: 2020-04-29T17:59:19Z
+Registrar: MarkMonitor Inc.
+Registrar IANA ID: 292
+Registrar Abuse Contact Email: abusecomplaints@markmonitor.com
+Registrar Abuse Contact Phone: +1.2083895740
+Domain Status: clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited
+Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+Domain Status: clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
+Domain Status: serverDeleteProhibited https://icann.org/epp#serverDeleteProhibited
+Domain Status: serverTransferProhibited https://icann.org/epp#serverTransferProhibited
+Domain Status: serverUpdateProhibited https://icann.org/epp#serverUpdateProhibited
+Name Server: NS-1029.AWSDNS-00.ORG
+Name Server: NS-1887.AWSDNS-43.CO.UK
+Name Server: NS-378.AWSDNS-47.COM
+Name Server: NS-557.AWSDNS-05.NET
+DNSSEC: unsigned
+
+Domain #3 youtube.com
+
+Domain Name: youtube.com
+Registry Domain ID: 142504053_DOMAIN_COM-VRSN
+Registrar WHOIS Server: whois.markmonitor.com
+Registrar URL: http://www.markmonitor.com
+Updated Date: 2020-01-14T02:32:46-0800
+Creation Date: 2005-02-14T21:13:12-0800
+Registrar Registration Expiration Date: 2021-02-14T00:00:00-0800
+Registrar: MarkMonitor, Inc.
+Registrar IANA ID: 292
+Registrar Abuse Contact Email: email@markmonitor.com
+Registrar Abuse Contact Phone: +1.2083895770
+Domain Status: clientUpdateProhibited (https://www.icann.org/epp#clientUpdateProhibited)
+Domain Status: clientTransferProhibited (https://www.icann.org/epp#clientTransferProhibited)
+Domain Status: clientDeleteProhibited (https://www.icann.org/epp#clientDeleteProhibited)
+Domain Status: serverUpdateProhibited (https://www.icann.org/epp#serverUpdateProhibited)
+Domain Status: serverTransferProhibited (https://www.icann.org/epp#serverTransferProhibited)
+Domain Status: serverDeleteProhibited (https://www.icann.org/epp#serverDeleteProhibited)
+Registrant Organization: Google LLC
+Registrant State/Province: CA
+Registrant Country: US
+Admin Organization: Google LLC
+Admin State/Province: CA
+Admin Country: US
+Tech Organization: Google LLC
+Tech State/Province: CA
+Tech Country: US
+Name Server: ns3.google.com
+Name Server: ns1.google.com
+Name Server: ns2.google.com
+Name Server: ns4.google.com
+DNSSEC: unsigned
+
+Domain #4 Facebook.com
+
+Domain Name: FACEBOOK.COM
+Registry Domain ID: 2320948_DOMAIN_COM-VRSN
+Registrar WHOIS Server: whois.registrarsafe.com
+Registrar URL: https://www.registrarsafe.com
+Updated Date: 2019-10-17T18:52:06Z
+Creation Date: 1997-03-29T05:00:00Z
+Registrar Registration Expiration Date: 2028-03-30T04:00:00Z
+Registrar: RegistrarSafe, LLC
+Registrar IANA ID: 3237
+Registrar Abuse Contact Email: email@registrarsafe.com
+Registrar Abuse Contact Phone: +1.6503087004
+Domain Status: clientDeleteProhibited https://www.icann.org/epp#clientDeleteProhibited
+Domain Status: clientTransferProhibited https://www.icann.org/epp#clientTransferProhibited
+Domain Status: serverDeleteProhibited https://www.icann.org/epp#serverDeleteProhibited
+Domain Status: serverTransferProhibited https://www.icann.org/epp#serverTransferProhibited
+Domain Status: clientUpdateProhibited https://www.icann.org/epp#clientUpdateProhibited
+Domain Status: serverUpdateProhibited https://www.icann.org/epp#serverUpdateProhibited
+Registry Registrant ID: 
+Registrant Name: Domain Admin
+Registrant Organization: Facebook, Inc.
+Registrant Street: 1601 Willow Rd 
+Registrant City: Menlo Park
+Registrant State/Province: CA
+Registrant Postal Code: 94025
+Registrant Country: US
+Registrant Phone: +1.6505434800
+Registrant Phone Ext:
+Registrant Fax: +1.6505434800
+Registrant Fax Ext:
+Registrant Email: email@fb.com
+Registry Admin ID: 
+Admin Name: Domain Admin
+Admin Organization: Facebook, Inc.
+Admin Street: 1601 Willow Rd 
+Admin City: Menlo Park
+Admin State/Province: CA
+Admin Postal Code: 94025
+Admin Country: US
+Admin Phone: +1.6505434800
+Admin Phone Ext:
+Admin Fax: +1.6505434800
+Admin Fax Ext:
+Admin Email: email@fb.com
+Registry Tech ID: 
+Tech Name: Domain Admin
+Tech Organization: Facebook, Inc.
+Tech Street: 1601 Willow Rd 
+Tech City: Menlo Park
+Tech State/Province: CA
+Tech Postal Code: 94025
+Tech Country: US
+Tech Phone: +1.6505434800
+Tech Phone Ext:
+Tech Fax: +1.6505434800
+Tech Fax Ext:
+Tech Email: email@fb.com
+Name Server: A.NS.FACEBOOK.COM
+Name Server: B.NS.FACEBOOK.COM
+DNSSEC: unsigned
+
+Domain #5 nba.com 
+
+Domain Name: nba.com
+Registry Domain ID: 966915_DOMAIN_COM-VRSN
+Registrar WHOIS Server: whois.corporatedomains.com
+Registrar URL: www.cscprotectsbrands.com
+Updated Date: 2019-06-01T00:18:01Z
+Creation Date: 1994-11-28T05:00:00Z
+Registrar Registration Expiration Date: 2020-11-27T05:00:00Z
+Registrar: CSC CORPORATE DOMAINS, INC.
+Sponsoring Registrar IANA ID: 299
+Registrar Abuse Contact Email: email@cscglobal.com
+Registrar Abuse Contact Phone: +1.8887802723
+Domain Status: clientTransferProhibited http://www.icann.org/epp#clientTransferProhibited
+Registry Registrant ID: 
+Registrant Name: C/O Domain Administrator
+Registrant Organization: NBA Media Ventures, LLC
+Registrant Street: 
+Registrant City: New York
+Registrant State/Province: NY
+Registrant Postal Code: 10022
+Registrant Country: US
+Registrant Phone: +001.201.8651506
+Registrant Phone Ext: 
+Registrant Fax: +000.000.0000000
+Registrant Fax Ext: 
+Registrant Email: email@nba.com
+Registry Admin ID: 
+Admin Name: Information Technology
+Admin Organization: NBA Basketball Association
+Admin Street: 
+Admin City: Secaucus
+Admin State/Province: NJ
+Admin Postal Code: 07094
+Admin Country: US
+Admin Phone: +001.201.9746996
+Admin Phone Ext: 
+Admin Fax: +001.201.9746001
+Admin Fax Ext: 
+Admin Email: email@nba.com
+Registry Tech ID: 
+Tech Name: Information Technology
+Tech Organization: NBA Basketball Association
+Tech Street: 
+Tech City: Secaucus
+Tech State/Province: NJ
+Tech Postal Code: 07094
+Tech Country: US
+Tech Phone: +001.201.9746996
+Tech Phone Ext: 
+Tech Fax: +001.201.9746001
+Tech Fax Ext: 
+Tech Email: email@nba.com
+Name Server: a12-65.akam.net
+Name Server: a1-148.akam.net
+Name Server: a5-65.akam.net
+Name Server: a7-67.akam.net
+Name Server: a16-64.akam.net
+Name Server: a18-65.akam.net
+DNSSEC: unsigned
+

@@ -1,0 +1,14 @@
+Traceroute info to Twitter.com
+
+traceroute to twitter.com (104.244.42.193), 30 hops max, 60 byte packets
+ 1  * * *
+ 2  10.78.4.6 (10.78.4.6)  1.145 ms 10.78.4.2 (10.78.4.2)  2.199 ms 10.78.4.0 (10.78.4.0)  2.187 ms
+ 3  138.197.249.86 (138.197.249.86)  2.147 ms 138.197.249.82 (138.197.249.82)  2.066 ms 138.197.249.78 (138.197.249.78)  2.063 ms
+ 4  toro-b1-link.telia.net (62.115.55.29)  7.036 ms toro-b1-link.telia.net (62.115.9.209)  7.037 ms toro-b1-link.telia.net (62.115.55.29)  1.948 ms
+ 5  toro-b3-link.telia.net (62.115.116.180)  1.998 ms  1.961 ms  1.877 ms
+ 6  toro-b2-link.telia.net (62.115.117.229)  1.845 ms  2.039 ms  0.761 ms
+ 7  chi-b21-link.telia.net (62.115.118.100)  10.752 ms  10.711 ms  10.635 ms
+ 8  twitter-ic-322862-chi-b21.c.telia.net (62.115.49.73)  11.589 ms  11.581 ms  11.561 ms
+ 9  * * *
+10  104.244.42.193 (104.244.42.193)  29.684 ms  29.537 ms  29.111 ms
+

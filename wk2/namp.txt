@@ -1,0 +1,52 @@
+nmap to twitter.com
+-------------------
+Nmap scan report for twitter.com (104.244.42.65)
+Host is up (0.029s latency).
+
+Other addresses for twitter.com (not scanned): 104.244.42.1
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 12.97 seconds
+
+nmap -p 200 to youtube.com 
+--------------------------
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-15 16:20 UTC
+Nmap scan report for youtube.com (172.217.164.206)
+Host is up (0.0020s latency).
+Other addresses for youtube.com (not scanned): 2607:f8b0:400b:802::200e
+rDNS record for 172.217.164.206: yyz12s04-in-f14.1e100.net
+
+PORT    STATE    SERVICE
+200/tcp filtered src
+
+Nmap done: 1 IP address (1 host up) scanned in 0.52 seconds
+
+nmap -p 90-1000 to nba.com
+--------------------------
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-15 16:22 UTC
+Nmap scan report for nba.com (18.210.212.54)
+Host is up (0.033s latency).
+Other addresses for nba.com (not scanned): 18.191.54.162 18.211.55.24 18.219.105.141
+rDNS record for 18.210.212.54: ec2-18-210-212-54.compute-1.amazonaws.com
+Not shown: 910 filtered ports
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 76.70 seconds
+
+nmap -F to reddit.com
+---------------------
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-15 16:25 UTC
+Nmap scan report for reddit.com (151.101.1.140)
+Host is up (0.0011s latency).
+Other addresses for reddit.com (not scanned): 151.101.129.140 151.101.193.140 151.101.65.140
+Not shown: 98 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 5.73 seconds
+

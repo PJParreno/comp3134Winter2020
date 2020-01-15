@@ -1,0 +1,9 @@
+Ping info to twitter.com
+
+PING twitter.com (104.244.42.193) 56(84) bytes of data.
+64 bytes from 104.244.42.193: icmp_seq=1 ttl=55 time=29.9 ms
+
+--- twitter.com ping statistics ---
+6 packets transmitted, 6 received, 0% packet loss, time 5006ms
+
+

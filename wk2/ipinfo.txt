@@ -1,0 +1,27 @@
+IP/Domain #1 twitter.com
+
+IP Address: 104.244.42.193
+Geolocation: US (United States), CA, California, 94103 San Francisco
+
+IP/Domain #2 Reddit.com
+
+IP Address: 151.101.1.140
+Geolocation: US (United States), CA, California, 94107 San Francisco 
+
+IP/Domain #3 youtube.com
+
+IP Address: 172.217.12.142
+Geolocation: US (United States), CA, California, 94043 Mountain View
+Reverse DNS: lga34s19-in-f14.1e100.net
+
+IP/Domain #4 
+
+IP Address: 31.13.71.36
+Geolocation: IE (Ireland), N/A, N/A, N/A N/A
+Reverse DNS: edge-star-mini-shv-01-lga3.facebook.com
+
+IP/Domain #5
+
+IP Address: 18.210.212.54
+Geolocation: US (United States), VA, Virginia, 20149 Ashburn
+Reverse DNS: ec2-18-210-212-54.compute-1.amazonaws.com

@@ -1,0 +1,9 @@
+Ping info to Drop Server (159.203.16.38)
+
+PING 159.203.16.38 (159.203.16.38): 56 data bytes
+64 bytes from 159.203.16.38: icmp_seq=0 ttl=57 time=4.341 ms
+64 bytes from 159.203.16.38: icmp_seq=1 ttl=57 time=2.440 ms
+
+--- 159.203.16.38 ping statistics ---
+5 packets transmitted, 5 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 1.946/2.698/4.341/0.843 ms
