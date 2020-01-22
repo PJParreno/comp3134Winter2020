@@ -1,0 +1,49 @@
+Company Name: bechtel
+Domain: bechtel.com
+
+Question #1
+
+FTP: close
+SSH: close
+TELNET: close
+SMTP: close
+DNS: close
+HTTP: open
+POP3: close
+IMAP: close
+MySQL:close
+
+'nmap bechtel.com'  output:
+STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 19.82 seconds
+
+Question # 2:
+
+Number of Employees: 55,000
+CEO: Brendan Bechtel
+CFO: Catherine Hunt Ryan
+President: Jack Futcher
+Current Job Postings:
+
+Bechtel Logo
+Project Controls - Engineer
+Bechtel – Houston, TX
+17 days ago
+
+Bechtel Logo
+Mechanical - Senior Engineer - Static Equipment
+Bechtel – Reston, VA
+6 days ago
+
+Bechtel Logo
+Area Project Engineer
+Bechtel – Titusville, FL
+8 days ago
+
+Bechtel Logo
+Project Cntrols Engineer
+Bechtel – Waynesboro, GA
+6 days ago
