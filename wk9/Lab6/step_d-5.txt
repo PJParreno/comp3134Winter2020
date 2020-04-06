@@ -1,0 +1,10 @@
+What you see on the browser (the issue)
+---------------------------------------
+On this screen you can see the html folder of my server droplet. We have gone down one level 
+from the current directory
+
+What sensitive information is given by this page
+------------------------------------------------
+This folder displays the structure of our web page and all the files it contains, including the web root folder
+An attacker can inject information in the form of queries. They can access the web root and possibly take sensitive
+information that is stored in our webpage

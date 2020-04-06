@@ -1,0 +1,83 @@
+Command to execute Capture:
+---------------------------
+
+tcpdump -ni eth0 tcp port 80
+
+Packet #1:
+----------
+Output Produce From Capture:
+
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+15:51:26.076523 IP 198.96.84.204.36503 > 159.203.16.38.80: Flags [SEW], seq 4145866014, win 65535, options [mss 1300,nop,wscale 5,nop,nop,TS val 674569384 ecr 0,sackOK,eol], length 0
+15:51:26.076625 IP 159.203.16.38.80 > 198.96.84.204.36503: Flags [S.E], seq 1927582150, ack 4145866015, win 28960, options [mss 1460,sackOK,TS val 1693404091 ecr 674569384,nop,wscale 7], length 0
+15:51:26.078478 IP 198.96.84.204.36503 > 159.203.16.38.80: Flags [.], ack 1, win 4105, options [nop,nop,TS val 674569386 ecr 1693404091], length 0
+15:51:26.079103 IP 198.96.84.204.36503 > 159.203.16.38.80: Flags [P.], seq 1:35, ack 1, win 4105, options [nop,nop,TS val 674569386 ecr 1693404091], length 34: HTTP
+15:51:26.079180 IP 159.203.16.38.80 > 198.96.84.204.36503: Flags [.], ack 35, win 227, options [nop,nop,TS val 1693404094 ecr 674569386], length 0
+15:51:26.580581 IP 198.96.84.204.36503 > 159.203.16.38.80: Flags [F.], seq 35, ack 1, win 4105, options [nop,nop,TS val 674569886 ecr 1693404094], length 0
+15:51:26.581209 IP 159.203.16.38.80 > 198.96.84.204.36503: Flags [F.], seq 1, ack 36, win 227, options [nop,nop,TS val 1693404596 ecr 674569886], length 0
+15:51:26.583779 IP 198.96.84.204.36503 > 159.203.16.38.80: Flags [.], ack 2, win 4105, options [nop,nop,TS val 674569888 ecr 1693404596], length 0
+^C
+8 packets captured
+8 packets received by filter
+0 packets dropped by kernel
+
+Information Rquested From Each Packet: 
+
+Source Host: 198.96.84.204
+Source Port: 36503
+Destination Host: 159.203.16.38
+Destination Port: 80
+
+Packet #2:
+-----------
+Output Produce From Capture:
+
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+15:53:29.177906 IP 198.96.84.204.38056 > 159.203.16.38.80: Flags [SEW], seq 215563537, win 65535, options [mss 1300,nop,wscale 5,nop,nop,TS val 674691853 ecr 0,sackOK,eol], length 0
+15:53:29.178033 IP 159.203.16.38.80 > 198.96.84.204.38056: Flags [S.E], seq 3244822739, ack 215563538, win 28960, options [mss 1460,sackOK,TS val 1693527192 ecr 674691853,nop,wscale 7], length 0
+15:53:29.201011 IP 198.96.84.204.38056 > 159.203.16.38.80: Flags [.], ack 1, win 4105, options [nop,nop,TS val 674691870 ecr 1693527192], length 0
+15:53:29.201080 IP 198.96.84.204.38056 > 159.203.16.38.80: Flags [P.], seq 1:35, ack 1, win 4105, options [nop,nop,TS val 674691870 ecr 1693527192], length 34: HTTP
+15:53:29.201143 IP 159.203.16.38.80 > 198.96.84.204.38056: Flags [.], ack 35, win 227, options [nop,nop,TS val 1693527215 ecr 674691870], length 0
+15:53:29.695093 IP 198.96.84.204.38056 > 159.203.16.38.80: Flags [F.], seq 35, ack 1, win 4105, options [nop,nop,TS val 674692370 ecr 1693527215], length 0
+15:53:29.695637 IP 159.203.16.38.80 > 198.96.84.204.38056: Flags [F.], seq 1, ack 36, win 227, options [nop,nop,TS val 1693527710 ecr 674692370], length 0
+15:53:29.698753 IP 198.96.84.204.38056 > 159.203.16.38.80: Flags [.], ack 2, win 4105, options [nop,nop,TS val 674692373 ecr 1693527710], length 0
+^C
+8 packets captured
+9 packets received by filter
+0 packets dropped by kernel
+
+Information Rquested From Each Packet: 
+
+Source Host: 198.96.84.204
+Source Port: 38056
+Destination Host: 159.203.16.38
+Destination Port: 80
+
+Packet #3: 
+----------
+
+Output Produce From Capture:
+
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+15:54:24.149025 IP 198.96.84.204.22437 > 159.203.16.38.80: Flags [SEW], seq 2995104773, win 65535, options [mss 1300,nop,wscale 5,nop,nop,TS val 674746542 ecr 0,sackOK,eol], length 0
+15:54:24.149148 IP 159.203.16.38.80 > 198.96.84.204.22437: Flags [S.E], seq 1698233249, ack 2995104774, win 28960, options [mss 1460,sackOK,TS val 1693582163 ecr 674746542,nop,wscale 7], length 0
+15:54:24.151016 IP 198.96.84.204.22437 > 159.203.16.38.80: Flags [.], ack 1, win 4105, options [nop,nop,TS val 674746545 ecr 1693582163], length 0
+15:54:24.151555 IP 198.96.84.204.22437 > 159.203.16.38.80: Flags [P.], seq 1:35, ack 1, win 4105, options [nop,nop,TS val 674746545 ecr 1693582163], length 34: HTTP
+15:54:24.151607 IP 159.203.16.38.80 > 198.96.84.204.22437: Flags [.], ack 35, win 227, options [nop,nop,TS val 1693582165 ecr 674746545], length 0
+15:54:24.653523 IP 198.96.84.204.22437 > 159.203.16.38.80: Flags [F.], seq 35, ack 1, win 4105, options [nop,nop,TS val 674747045 ecr 1693582165], length 0
+15:54:24.653958 IP 159.203.16.38.80 > 198.96.84.204.22437: Flags [F.], seq 1, ack 36, win 227, options [nop,nop,TS val 1693582668 ecr 674747045], length 0
+15:54:24.656034 IP 198.96.84.204.22437 > 159.203.16.38.80: Flags [.], ack 2, win 4105, options [nop,nop,TS val 674747047 ecr 1693582668], length 0
+^C
+8 packets captured
+9 packets received by filter
+0 packets dropped by kernel
+
+Information Rquested From Each Packet: 
+
+Source Host: 198.96.84.204
+Source Port: 22437
+Destination Host: 159.203.16.38
+Destination Port: 80

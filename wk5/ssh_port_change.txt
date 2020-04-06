@@ -1,0 +1,9 @@
+6) Command used
+
+root@comp3133Droplet1:~# service sshd restart
+root@comp3133Droplet1:~# logout
+
+7) Command Used 
+
+root@comp3133Droplet1:~# ssh root@159.203.16.38 -p 2222
+

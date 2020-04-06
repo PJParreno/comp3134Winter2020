@@ -1,0 +1,14 @@
+1) Definition for the word type in is displayed in the browser
+Query string changed to = https://www.dictionary.com/browse/hello?s=t
+with the word I searched up  'hello' how attached to the query string
+
+2) Page displays with an error message saying 'No results found for dewdew'
+the url changed from 'browse' to 'https://www.dictionary.com/misspelling?term=dewdew'
+they try to match the missplled word with something similar with the same letters in it
+
+3) browser displays 'Results for <script>alert('hello')</script>:'
+and attricles attached below is what seems like similar results based on the search algorithm
+
+4) browser displays 'Results for <script>alert('hello')</script>:'
+and attricles attached below is what seems like similar results based on the search algorithm
+the same results as question number 3

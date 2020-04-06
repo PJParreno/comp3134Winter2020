@@ -1,0 +1,29 @@
+output for: tcpdump -A -i eth0
+
+(motified to only show first 6 packets)
+
+tcpdump -A -c 5 -i eth0
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+16:43:57.501470 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 2249340942:2249341050, ack 2235178719, win 350, options [nop,nop,TS val 486962540 ecr 812570495], length 108
+E....<@.@......&.`T....v..8..:.....^.......
+..ul0n..'m.9 ...F.~KTG..`....W0......\..3fj<.8..D..[.....p...k..1.N...".$e.....b..V..A(..e.n]..]..Q.F....p
+.[......u
+16:43:57.501628 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 108:144, ack 1, win 350, options [nop,nop,TS val 486962540 ecr 812570495], length 36
+E..X.=@.@..4...&.`T....v..8z.:.....^.h.....
+..ul0n..&3.8...*.Gp..Q....c...c...nG...2^...
+16:43:57.501934 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 144:252, ack 1, win 350, options [nop,nop,TS val 486962540 ecr 812570495], length 108
+E....>@.@......&.`T....v..8..:.....^.......
+..ul0n...j^.t..G
+..oWC.r%..H....Md...:.<u]..^a.....i9.7<..hG.c...q.L.O...]q.^mmw...).5.l....$....."MN&g=..Ln......,.
+16:43:57.502023 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 252:288, ack 1, win 350, options [nop,nop,TS val 486962540 ecr 812570495], length 36
+E..X.?@.@..2...&.`T....v..9
+.:.....^.h.....
+..ul0n..x$.^.9...7.bC...3a.......\.Y .......
+16:43:57.504040 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 288:516, ack 1, win 350, options [nop,nop,TS val 486962542 ecr 812570495], length 228
+E....@@.@..q...&.`T....v..9..:.....^.(.....
+..un0n....
+.B.p:.l......._..v.8......Ro5.^.....l.yU._.....N;..._U........Tq....j.eU..*..........z.he.. .....c9.....".*..'..H.B.E.@(.AK....-l.@^....).q...s..MxbYm=.}w..>...w.R..q..A..%](.s.....t...L...j%5...P.^bzT0........v..Z.c.?..";...
+5 packets captured
+9 packets received by filter
+2 packets dropped by kernel

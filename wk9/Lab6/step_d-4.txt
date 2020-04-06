@@ -1,0 +1,11 @@
+What you see on the browser (the issue)
+---------------------------------------
+
+What is displayed is all the folders that makeup my droplet server.
+This includes the web root of my droplet that could potential hold sensitive information
+
+What sensitive information is given by this page
+------------------------------------------------
+An attacker can access and view the web root of my droplet server.
+This could lead to attacks againsts my server, they can read or write information to my server causing 
+a information integrity loss.

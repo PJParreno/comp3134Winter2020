@@ -1,0 +1,46 @@
+Command to execute Capture:
+---------------------------
+
+tcpdump -c 3 -ni eth0 udp
+
+Output Produce From Capture:
+
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+15:30:25.979951 IP 198.96.84.204.59692 > 159.203.16.38.80: UDP, length 25
+15:30:26.950211 IP 198.96.84.204.59692 > 159.203.16.38.80: UDP, length 25
+15:30:27.918345 IP 198.96.84.204.59692 > 159.203.16.38.80: UDP, length 25
+3 packets captured
+3 packets received by filter
+0 packets dropped by kernel
+
+Information Rquested From Each Packet: 
+
+Packet #1:
+----------
+15:30:25.979951 IP 198.96.84.204.59692 > 159.203.16.38.80: UDP, length 25
+
+Source Host: 198.96.84.204
+Source Port: 59692
+Destination Host: 159.203.16.38
+Destination Port: 80
+
+Packet #2:
+----------
+
+15:30:26.950211 IP 198.96.84.204.59692 > 159.203.16.38.80: UDP, length 25
+
+Source Host: 198.96.84.204
+Source Port: 59692
+Destination Host: 159.203.16.38
+Destination Port: 80
+
+Packet #3: 
+----------
+
+15:30:27.918345 IP 198.96.84.204.59692 > 159.203.16.38.80: UDP, length 25
+
+Source Host: 198.96.84.204
+Source Port: 59692
+Destination Host: 159.203.16.38
+Destination Port: 80

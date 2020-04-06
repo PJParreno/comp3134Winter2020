@@ -1,0 +1,2 @@
+using echo in the header tags ro display the html we want to display and to avoid showing comments into 
+the source code we convert them into php comments using the hash (#) 

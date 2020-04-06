@@ -1,0 +1,9 @@
+
+First check for the 'basenme' in the query string, this is for the purpose for viewing 
+directories that are above our html directory. this will delete the command to move up directories
+or the '../' parts of the query string. The attacker or user will not be allowed to go up directories
+or search directories freely.
+
+if the folder does not exist first user the 'is_dir' and 'file_exists' system commands. by doing this
+the attacker cannot freely look for folders/files. Then locate the dot (.) in the query string if they
+are trying to access hidden directories, the head will then be set to forbidden, denying access.

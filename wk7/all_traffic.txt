@@ -1,0 +1,4 @@
+Command Used For all Traffic:
+----------------------------
+
+tcpdump -w all_traffic_20200222_0337 -s 0

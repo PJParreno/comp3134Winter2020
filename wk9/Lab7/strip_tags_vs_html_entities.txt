@@ -1,0 +1,6 @@
+Difference
+----------
+
+htmlentities() --> converts tags to text and displays text on the broswer
+
+strip_tags() --> removes all tags from the string

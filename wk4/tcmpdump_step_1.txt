@@ -1,0 +1,272 @@
+Out for: tcpdump -1 eth0
+
+ tcpdump -i eth0
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+16:36:33.000012 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 2246364066:2246364174, ack 2235174779, win 350, options [nop,nop,TS val 486518041 ecr 812126844], length 108
+16:36:33.000122 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 108:144, ack 1, win 350, options [nop,nop,TS val 486518041 ecr 812126844], length 36
+16:36:33.000274 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 144:252, ack 1, win 350, options [nop,nop,TS val 486518041 ecr 812126844], length 108
+16:36:33.000389 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 252:288, ack 1, win 350, options [nop,nop,TS val 486518041 ecr 812126844], length 36
+16:36:33.001547 IP comp3133Droplet1.38483 > 67.207.67.2.domain: 33184+ [1au] PTR? 204.84.96.198.in-addr.arpa. (55)
+16:36:33.002952 IP 67.207.67.2.domain > comp3133Droplet1.38483: 33184 NXDomain 0/1/1 (120)
+16:36:33.004076 IP comp3133Droplet1.38483 > 67.207.67.2.domain: 33184+ PTR? 204.84.96.198.in-addr.arpa. (44)
+16:36:33.008863 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 552:756, ack 1, win 350, options [nop,nop,TS val 486518050 ecr 812126844], length 204
+16:36:33.009098 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 792:996, ack 1, win 350, options [nop,nop,TS val 486518050 ecr 812126844], length 204
+16:36:33.009861 IP comp3133Droplet1.47416 > 67.207.67.2.domain: 26808+ [1au] PTR? 2.67.207.67.in-addr.arpa. (53)
+16:36:33.010323 IP 67.207.67.2.domain > comp3133Droplet1.47416: 26808 NXDomain 0/1/1 (120)
+16:36:33.047111 IP 198.96.84.204.48758 > comp3133Droplet1.ssh: Flags [.], ack 0, win 4094, options [nop,nop,TS val 812126862 ecr 486518028], length 0
+16:36:33.047202 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 996:2624, ack 1, win 350, options [nop,nop,TS val 486518088 ecr 812126862], length 1628
+16:36:33.047237 IP 198.96.84.204.48758 > comp3133Droplet1.ssh: Flags [.], ack 108, win 4092, options [nop,nop,TS val 812126874 ecr 486518041], length 0
+16:36:33.047496 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 2624:2812, ack 1, win 350, options [nop,nop,TS val 486518088 ecr 812126874], length 188
+16:36:33.047593 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 2812:2848, ack 1, win 350, options [nop,nop,TS val 486518088 ecr 812126874], length 36
+16:36:33.053642 IP 198.96.84.204.48758 > comp3133Droplet1.ssh: Flags [.], ack 144, win 4094, options [nop,nop,TS val 812126917 ecr 486518041], length 0
+16:36:33.053687 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 2848:3792, ack 1, win 350, options [nop,nop,TS val 486518094 ecr 812126917], length 944
+16:36:33.053895 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 3792:3980, ack 1, win 350, options [nop,nop,TS val 486518095 ecr 812126917], length 188
+16:36:33.129823 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 3980:4496, ack 1, win 350, options [nop,nop,TS val 486518170 ecr 812126917], length 516
+16:36:33.214497 IP 198.96.84.204.48758 > comp3133Droplet1.ssh: Flags [.], ack 252, win 4092, options [nop,nop,TS val 812127081 ecr 486518041], length 0
+16:36:33.214594 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 4496:4736, ack 1, win 350, options [nop,nop,TS val 486518255 ecr 812127081], length 240
+16:36:33.214631 IP 198.96.84.204.48758 > comp3133Droplet1.ssh: Flags [.], ack 288, win 4091, options [nop,nop,TS val 812127081 ecr 486518041], length 0
+16:36:33.214645 IP 198.96.84.204.48758 > comp3133Droplet1.ssh: Flags [.], ack 516, win 4088, options [nop,nop,TS val 812127081 ecr 486518049], length 0
+16:36:33.214965 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 4736:4924, ack 1, win 350, options [nop,nop,TS val 486518256 ecr 812127081], length 188
+16:36:33.215095 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 4924:4960, ack 1, win 350, options [nop,nop,TS val 486518256 ecr 812127081], length 36
+16:36:33.215254 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 4960:5164, ack 1, win 350, options [nop,nop,TS val 486518256 ecr 812127081], length 204
+16:36:33.215365 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 5164:5200, ack 1, win 350, options [nop,nop,TS val 486518256 ecr 812127081], length 36
+16:36:33.226169 IP 198.96.84.204.48758 > comp3133Droplet1.ssh: Flags [.], ack 552, win 4094, options [nop,nop,TS val 812127084 ecr 486518049], length 0
+16:36:33.226222 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 5200:6608, ack 1, win 350, options [nop,nop,TS val 486518267 ecr 812127084], length 1408
+16:36:33.226251 IP 198.96.84.204.48758 > comp3133Droplet1.ssh: Flags [.], ack 756, win 4089, options [nop,nop,TS val 812127084 ecr 486518050], length 0
+16:36:33.226441 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 6608:6796, ack 1, win 350, options [nop,nop,TS val 486518267 ecr 812127084], length 188
+16:36:33.226553 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 6796:6832, ack 1, win 350, options [nop,nop,TS val 486518267 ecr 812127084], length 36
+16:36:33.226849 IP 198.96.84.204.48758 > comp3133Droplet1.ssh: Flags [.], ack 792, win 4088, options [nop,nop,TS val 812127084 ecr 486518050], length 0
+16:36:33.226876 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 6832:7296, ack 1, win 350, options [nop,nop,TS val 486518268 ecr 812127084], length 464
+16:36:33.226898 IP 198.96.84.204.48758 > comp3133Droplet1.ssh: Flags [.], ack 996, win 4089, options [nop,nop,TS val 812127084 ecr 486518050], length 0
+16:36:33.226915 IP 198.96.84.204.48758 > comp3133Droplet1.ssh: Flags [.], ack 2624, win 4038, options [nop,nop,TS val 812127084 ecr 486518088], length 0
+16:36:33.227138 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 7296:7500, ack 1, win 350, options [nop,nop,TS val 486518268 ecr 812127084], length 204
+16:36:33.227354 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 7536:7740, ack 1, win 350, options [nop,nop,TS val 486518268 ecr 812127084], length 204
+16:36:33.227583 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 7776:7964, ack 1, win 350, options [nop,nop,TS val 486518268 ecr 812127084], length 188
+16:36:33.227908 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 8000:8204, ack 1, win 350, options [nop,nop,TS val 486518269 ecr 812127084], length 204
+16:36:33.228219 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 8240:8428, ack 1, win 350, options [nop,nop,TS val 486518269 ecr 812127084], length 188
+16:36:33.228765 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 8464:8652, ack 1, win 350, options [nop,nop,TS val 486518269 ecr 812127084], length 188
+16:36:33.229098 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 8688:8892, ack 1, win 350, options [nop,nop,TS val 486518270 ecr 812127084], length 204
+16:36:33.229431 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 8928:9132, ack 1, win 350, options [nop,nop,TS val 486518270 ecr 812127084], length 204
+16:36:33.229897 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 9168:9372, ack 1, win 350, options [nop,nop,TS val 486518271 ecr 812127084], length 204
+16:36:33.230288 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 9408:9612, ack 1, win 350, options [nop,nop,TS val 486518271 ecr 812127084], length 204
+16:36:33.230731 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 9648:10188, ack 1, win 350, options [nop,nop,TS val 486518271 ecr 812127084], length 540
+16:36:33.231049 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 10188:10896, ack 1, win 350, options [nop,nop,TS val 486518272 ecr 812127084], length 708
+16:36:33.231281 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 10896:11108, ack 1, win 350, options [nop,nop,TS val 486518272 ecr 812127084], length 212
+16:36:33.231484 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 11108:11312, ack 1, win 350, options [nop,nop,TS val 486518272 ecr 812127084], length 204
+16:36:33.231694 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 11312:11516, ack 1, win 350, options [nop,nop,TS val 486518272 ecr 812127084], length 204
+16:36:33.231904 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 11516:11720, ack 1, win 350, options [nop,nop,TS val 486518273 ecr 812127084], length 204
+16:36:33.232114 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 11720:11924, ack 1, win 350, options [nop,nop,TS val 486518273 ecr 812127084], length 204
+16:36:33.236248 IP 198.96.84.204.48758 > comp3133Droplet1.ssh: Flags [.], ack 6608, win 4052, options [nop,nop,TS val 812127097 ecr 486518267], length 0
+16:36:33.236291 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 11924:12128, ack 1, win 350, options [nop,nop,TS val 486518277 ecr 812127097], length 204
+16:36:33.236317 IP 198.96.84.204.48758 > comp3133Droplet1.ssh: Flags [.], ack 6796, win 4090, options [nop,nop,TS val 812127102 ecr 486518267], length 0
+16:36:33.236438 IP 198.96.84.204.48758 > comp3133Droplet1.ssh: Flags [.], ack 6832, win 4089, options [nop,nop,TS val 812127102 ecr 486518267], length 0
+16:36:33.236590 IP 198.96.84.204.48758 > comp3133Droplet1.ssh: Flags [.], ack 7296, win 4081, options [nop,nop,TS val 812127102 ecr 486518268], length 0
+16:36:33.236614 IP 198.96.84.204.48758 > comp3133Droplet1.ssh: Flags [.], ack 7500, win 4075, options [nop,nop,TS val 812127102 ecr 486518268], length 0
+16:36:33.236621 IP 198.96.84.204.48758 > comp3133Droplet1.ssh: Flags [.], ack 7536, win 4074, options [nop,nop,TS val 812127102 ecr 486518268], length 0
+16:36:33.236627 IP 198.96.84.204.48758 > comp3133Droplet1.ssh: Flags [.], ack 7740, win 4067, options [nop,nop,TS val 812127102 ecr 486518268], length 0
+16:36:33.236633 IP 198.96.84.204.48758 > comp3133Droplet1.ssh: Flags [.], ack 7776, win 4066, options [nop,nop,TS val 812127102 ecr 486518268], length 0
+16:36:33.236639 IP 198.96.84.204.48758 > comp3133Droplet1.ssh: Flags [.], ack 7964, win 4060, options [nop,nop,TS val 812127102 ecr 486518268], length 0
+16:36:33.236666 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 12128:12796, ack 1, win 350, options [nop,nop,TS val 486518277 ecr 812127102], length 668
+16:36:33.236783 IP 198.96.84.204.48758 > comp3133Droplet1.ssh: Flags [.], ack 8000, win 4094, options [nop,nop,TS val 812127102 ecr 486518268], length 0
+16:36:33.237048 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 12796:14080, ack 1, win 350, options [nop,nop,TS val 486518278 ecr 812127102], length 1284
+16:36:33.237183 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 14080:14292, ack 1, win 350, options [nop,nop,TS val 486518278 ecr 812127102], length 212
+16:36:33.237304 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 14292:14496, ack 1, win 350, options [nop,nop,TS val 486518278 ecr 812127102], length 204
+16:36:33.237424 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 14496:14700, ack 1, win 350, options [nop,nop,TS val 486518278 ecr 812127102], length 204
+16:36:33.237585 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 14700:14904, ack 1, win 350, options [nop,nop,TS val 486518278 ecr 812127102], length 204
+16:36:33.237856 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 14904:15108, ack 1, win 350, options [nop,nop,TS val 486518279 ecr 812127102], length 204
+16:36:33.237993 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 15108:15312, ack 1, win 350, options [nop,nop,TS val 486518279 ecr 812127102], length 204
+16:36:33.238114 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 15312:15516, ack 1, win 350, options [nop,nop,TS val 486518279 ecr 812127102], length 204
+16:36:33.238234 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 15516:15720, ack 1, win 350, options [nop,nop,TS val 486518279 ecr 812127102], length 204
+16:36:33.238354 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 15720:15924, ack 1, win 350, options [nop,nop,TS val 486518279 ecr 812127102], length 204
+16:36:33.238474 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 15924:16128, ack 1, win 350, options [nop,nop,TS val 486518279 ecr 812127102], length 204
+16:36:33.238594 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 16128:16332, ack 1, win 350, options [nop,nop,TS val 486518279 ecr 812127102], length 204
+16:36:33.238714 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 16332:16536, ack 1, win 350, options [nop,nop,TS val 486518279 ecr 812127102], length 204
+16:36:33.238855 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 16536:16740, ack 1, win 350, options [nop,nop,TS val 486518280 ecr 812127102], length 204
+16:36:33.239028 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 16740:16944, ack 1, win 350, options [nop,nop,TS val 486518280 ecr 812127102], length 204
+16:36:33.239164 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 16944:17148, ack 1, win 350, options [nop,nop,TS val 486518280 ecr 812127102], length 204
+16:36:33.239283 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 17148:17352, ack 1, win 350, options [nop,nop,TS val 486518280 ecr 812127102], length 204
+16:36:33.239397 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 17352:17556, ack 1, win 350, options [nop,nop,TS val 486518280 ecr 812127102], length 204
+16:36:33.239513 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 17556:17760, ack 1, win 350, options [nop,nop,TS val 486518280 ecr 812127102], length 204
+16:36:33.239630 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 17760:17964, ack 1, win 350, options [nop,nop,TS val 486518280 ecr 812127102], length 204
+16:36:33.239746 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 17964:18168, ack 1, win 350, options [nop,nop,TS val 486518280 ecr 812127102], length 204
+16:36:33.239862 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 18168:18372, ack 1, win 350, options [nop,nop,TS val 486518281 ecr 812127102], length 204
+16:36:33.240011 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 18372:18576, ack 1, win 350, options [nop,nop,TS val 486518281 ecr 812127102], length 204
+16:36:33.240128 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 18576:18780, ack 1, win 350, options [nop,nop,TS val 486518281 ecr 812127102], length 204
+16:36:33.240244 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 18780:18984, ack 1, win 350, options [nop,nop,TS val 486518281 ecr 812127102], length 204
+16:36:33.240359 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 18984:19188, ack 1, win 350, options [nop,nop,TS val 486518281 ecr 812127102], length 204
+16:36:33.240473 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 19188:19392, ack 1, win 350, options [nop,nop,TS val 486518281 ecr 812127102], length 204
+16:36:33.240587 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 19392:19596, ack 1, win 350, options [nop,nop,TS val 486518281 ecr 812127102], length 204
+16:36:33.240714 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 19596:19800, ack 1, win 350, options [nop,nop,TS val 486518281 ecr 812127102], length 204
+16:36:33.240848 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 19800:20004, ack 1, win 350, options [nop,nop,TS val 486518282 ecr 812127102], length 204
+16:36:33.240968 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 20004:20208, ack 1, win 350, options [nop,nop,TS val 486518282 ecr 812127102], length 204
+16:36:33.241085 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 20208:20412, ack 1, win 350, options [nop,nop,TS val 486518282 ecr 812127102], length 204
+16:36:33.241201 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 20412:20616, ack 1, win 350, options [nop,nop,TS val 486518282 ecr 812127102], length 204
+16:36:33.241318 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 20616:20820, ack 1, win 350, options [nop,nop,TS val 486518282 ecr 812127102], length 204
+16:36:33.241434 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 20820:21024, ack 1, win 350, options [nop,nop,TS val 486518282 ecr 812127102], length 204
+16:36:33.241558 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 21024:21228, ack 1, win 350, options [nop,nop,TS val 486518282 ecr 812127102], length 204
+16:36:33.244334 IP 198.96.84.204.48758 > comp3133Droplet1.ssh: Flags [.], ack 9132, win 4089, options [nop,nop,TS val 812127106 ecr 486518270], length 0
+16:36:33.244377 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 21228:21432, ack 1, win 350, options [nop,nop,TS val 486518285 ecr 812127106], length 204
+16:36:33.244407 IP 198.96.84.204.48758 > comp3133Droplet1.ssh: Flags [.], ack 9168, win 4088, options [nop,nop,TS val 812127106 ecr 486518270], length 0
+16:36:33.244632 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 21432:21948, ack 1, win 350, options [nop,nop,TS val 486518285 ecr 812127106], length 516
+16:36:33.246271 IP 198.96.84.204.48758 > comp3133Droplet1.ssh: Flags [.], ack 9372, win 4082, options [nop,nop,TS val 812127106 ecr 486518271], length 0
+16:36:33.246312 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 21948:22152, ack 1, win 350, options [nop,nop,TS val 486518287 ecr 812127106], length 204
+16:36:33.246340 IP 198.96.84.204.48758 > comp3133Droplet1.ssh: Flags [.], ack 9408, win 4081, options [nop,nop,TS val 812127106 ecr 486518271], length 0
+16:36:33.246350 IP 198.96.84.204.48758 > comp3133Droplet1.ssh: Flags [.], ack 9612, win 4089, options [nop,nop,TS val 812127106 ecr 486518271], length 0
+16:36:33.246356 IP 198.96.84.204.48758 > comp3133Droplet1.ssh: Flags [.], ack 9648, win 4088, options [nop,nop,TS val 812127106 ecr 486518271], length 0
+16:36:33.246362 IP 198.96.84.204.48758 > comp3133Droplet1.ssh: Flags [.], ack 10188, win 4071, options [nop,nop,TS val 812127106 ecr 486518271], length 0
+16:36:33.246370 IP 198.96.84.204.48758 > comp3133Droplet1.ssh: Flags [.], ack 10896, win 4049, options [nop,nop,TS val 812127106 ecr 486518272], length 0
+16:36:33.246599 IP 198.96.84.204.48758 > comp3133Droplet1.ssh: Flags [.], ack 14904, win 4096, options [nop,nop,TS val 812127109 ecr 486518278], length 0
+16:36:33.246896 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 22152:23444, ack 1, win 350, options [nop,nop,TS val 486518288 ecr 812127109], length 1292
+16:36:33.247050 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 23444:23656, ack 1, win 350, options [nop,nop,TS val 486518288 ecr 812127109], length 212
+16:36:33.247217 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 23656:23860, ack 1, win 350, options [nop,nop,TS val 486518288 ecr 812127109], length 204
+16:36:33.247388 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 23860:24064, ack 1, win 350, options [nop,nop,TS val 486518288 ecr 812127109], length 204
+16:36:33.247514 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 24064:24268, ack 1, win 350, options [nop,nop,TS val 486518288 ecr 812127109], length 204
+16:36:33.247632 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 24268:24472, ack 1, win 350, options [nop,nop,TS val 486518288 ecr 812127109], length 204
+16:36:33.247774 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 24472:24676, ack 1, win 350, options [nop,nop,TS val 486518288 ecr 812127109], length 204
+16:36:33.248118 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 24676:24880, ack 1, win 350, options [nop,nop,TS val 486518289 ecr 812127109], length 204
+16:36:33.248260 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 24880:25084, ack 1, win 350, options [nop,nop,TS val 486518289 ecr 812127109], length 204
+16:36:33.248382 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 25084:25288, ack 1, win 350, options [nop,nop,TS val 486518289 ecr 812127109], length 204
+16:36:33.248529 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 25288:25492, ack 1, win 350, options [nop,nop,TS val 486518289 ecr 812127109], length 204
+16:36:33.248653 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 25492:25696, ack 1, win 350, options [nop,nop,TS val 486518289 ecr 812127109], length 204
+16:36:33.248768 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 25696:25900, ack 1, win 350, options [nop,nop,TS val 486518289 ecr 812127109], length 204
+16:36:33.248916 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 25900:26104, ack 1, win 350, options [nop,nop,TS val 486518290 ecr 812127109], length 204
+16:36:33.249087 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 26104:26308, ack 1, win 350, options [nop,nop,TS val 486518290 ecr 812127109], length 204
+16:36:33.249238 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 26308:26512, ack 1, win 350, options [nop,nop,TS val 486518290 ecr 812127109], length 204
+16:36:33.249389 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 26512:26716, ack 1, win 350, options [nop,nop,TS val 486518290 ecr 812127109], length 204
+16:36:33.249534 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 26716:26920, ack 1, win 350, options [nop,nop,TS val 486518290 ecr 812127109], length 204
+16:36:33.249737 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 26920:27124, ack 1, win 350, options [nop,nop,TS val 486518290 ecr 812127109], length 204
+16:36:33.249919 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 27124:27328, ack 1, win 350, options [nop,nop,TS val 486518291 ecr 812127109], length 204
+16:36:33.250074 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 27328:27532, ack 1, win 350, options [nop,nop,TS val 486518291 ecr 812127109], length 204
+16:36:33.250226 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 27532:27736, ack 1, win 350, options [nop,nop,TS val 486518291 ecr 812127109], length 204
+16:36:33.250393 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 27736:27940, ack 1, win 350, options [nop,nop,TS val 486518291 ecr 812127109], length 204
+16:36:33.250532 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 27940:28144, ack 1, win 350, options [nop,nop,TS val 486518291 ecr 812127109], length 204
+16:36:33.250652 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 28144:28348, ack 1, win 350, options [nop,nop,TS val 486518291 ecr 812127109], length 204
+16:36:33.250768 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 28348:28552, ack 1, win 350, options [nop,nop,TS val 486518291 ecr 812127109], length 204
+16:36:33.250884 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 28552:28756, ack 1, win 350, options [nop,nop,TS val 486518292 ecr 812127109], length 204
+16:36:33.251009 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 28756:28960, ack 1, win 350, options [nop,nop,TS val 486518292 ecr 812127109], length 204
+16:36:33.251141 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 28960:29164, ack 1, win 350, options [nop,nop,TS val 486518292 ecr 812127109], length 204
+16:36:33.251267 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 29164:29368, ack 1, win 350, options [nop,nop,TS val 486518292 ecr 812127109], length 204
+16:36:33.251429 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 29368:29572, ack 1, win 350, options [nop,nop,TS val 486518292 ecr 812127109], length 204
+16:36:33.251579 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 29572:29776, ack 1, win 350, options [nop,nop,TS val 486518292 ecr 812127109], length 204
+16:36:33.251634 IP 198.96.84.204.48758 > comp3133Droplet1.ssh: Flags [.], ack 16944, win 4089, options [nop,nop,TS val 812127109 ecr 486518280], length 0
+16:36:33.251659 IP 198.96.84.204.48758 > comp3133Droplet1.ssh: Flags [.], ack 17148, win 4083, options [nop,nop,TS val 812127109 ecr 486518280], length 0
+16:36:33.251670 IP 198.96.84.204.48758 > comp3133Droplet1.ssh: Flags [.], ack 17352, win 4076, options [nop,nop,TS val 812127109 ecr 486518280], length 0
+16:36:33.251679 IP 198.96.84.204.48758 > comp3133Droplet1.ssh: Flags [.], ack 17556, win 4089, options [nop,nop,TS val 812127109 ecr 486518280], length 0
+16:36:33.251687 IP 198.96.84.204.48758 > comp3133Droplet1.ssh: Flags [.], ack 17760, win 4083, options [nop,nop,TS val 812127109 ecr 486518280], length 0
+16:36:33.251696 IP 198.96.84.204.48758 > comp3133Droplet1.ssh: Flags [.], ack 17964, win 4089, options [nop,nop,TS val 812127110 ecr 486518280], length 0
+16:36:33.251891 IP 198.96.84.204.48758 > comp3133Droplet1.ssh: Flags [.], ack 19800, win 4038, options [nop,nop,TS val 812127110 ecr 486518281], length 0
+16:36:33.251968 IP 198.96.84.204.48758 > comp3133Droplet1.ssh: Flags [.], ack 21024, win 4057, options [nop,nop,TS val 812127110 ecr 486518282], length 0
+16:36:33.252212 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 29776:31220, ack 1, win 350, options [nop,nop,TS val 486518293 ecr 812127111], length 1444
+16:36:33.252350 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 31220:31432, ack 1, win 350, options [nop,nop,TS val 486518293 ecr 812127111], length 212
+16:36:33.252473 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 31432:31636, ack 1, win 350, options [nop,nop,TS val 486518293 ecr 812127111], length 204
+16:36:33.252595 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 31636:31840, ack 1, win 350, options [nop,nop,TS val 486518293 ecr 812127111], length 204
+16:36:33.252715 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 31840:32044, ack 1, win 350, options [nop,nop,TS val 486518293 ecr 812127111], length 204
+16:36:33.252839 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 32044:32248, ack 1, win 350, options [nop,nop,TS val 486518294 ecr 812127111], length 204
+16:36:33.252959 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 32248:32452, ack 1, win 350, options [nop,nop,TS val 486518294 ecr 812127111], length 204
+16:36:33.253076 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 32452:32656, ack 1, win 350, options [nop,nop,TS val 486518294 ecr 812127111], length 204
+16:36:33.253214 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 32656:32860, ack 1, win 350, options [nop,nop,TS val 486518294 ecr 812127111], length 204
+16:36:33.253363 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 32860:33064, ack 1, win 350, options [nop,nop,TS val 486518294 ecr 812127111], length 204
+16:36:33.253480 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 33064:33268, ack 1, win 350, options [nop,nop,TS val 486518294 ecr 812127111], length 204
+16:36:33.253617 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 33268:33472, ack 1, win 350, options [nop,nop,TS val 486518294 ecr 812127111], length 204
+16:36:33.253818 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 33472:33676, ack 1, win 350, options [nop,nop,TS val 486518295 ecr 812127111], length 204
+16:36:33.253944 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 33676:33880, ack 1, win 350, options [nop,nop,TS val 486518295 ecr 812127111], length 204
+16:36:33.254059 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 33880:34084, ack 1, win 350, options [nop,nop,TS val 486518295 ecr 812127111], length 204
+16:36:33.254210 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 34084:34288, ack 1, win 350, options [nop,nop,TS val 486518295 ecr 812127111], length 204
+16:36:33.254329 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 34288:34492, ack 1, win 350, options [nop,nop,TS val 486518295 ecr 812127111], length 204
+16:36:33.254444 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 34492:34696, ack 1, win 350, options [nop,nop,TS val 486518295 ecr 812127111], length 204
+16:36:33.254557 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 34696:34900, ack 1, win 350, options [nop,nop,TS val 486518295 ecr 812127111], length 204
+16:36:33.254672 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 34900:35104, ack 1, win 350, options [nop,nop,TS val 486518295 ecr 812127111], length 204
+16:36:33.254820 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 35104:35308, ack 1, win 350, options [nop,nop,TS val 486518296 ecr 812127111], length 204
+16:36:33.254939 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 35308:35512, ack 1, win 350, options [nop,nop,TS val 486518296 ecr 812127111], length 204
+16:36:33.255053 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 35512:35716, ack 1, win 350, options [nop,nop,TS val 486518296 ecr 812127111], length 204
+16:36:33.255168 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 35716:35920, ack 1, win 350, options [nop,nop,TS val 486518296 ecr 812127111], length 204
+16:36:33.255282 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 35920:36124, ack 1, win 350, options [nop,nop,TS val 486518296 ecr 812127111], length 204
+16:36:33.256086 IP 198.96.84.204.48758 > comp3133Droplet1.ssh: Flags [.], ack 22152, win 4089, options [nop,nop,TS val 812127114 ecr 486518287], length 0
+16:36:33.256123 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 36124:36328, ack 1, win 350, options [nop,nop,TS val 486518297 ecr 812127114], length 204
+16:36:33.256148 IP 198.96.84.204.48758 > comp3133Droplet1.ssh: Flags [.], ack 23444, win 4055, options [nop,nop,TS val 812127115 ecr 486518288], length 0
+16:36:33.256156 IP 198.96.84.204.48758 > comp3133Droplet1.ssh: Flags [.], ack 23656, win 4049, options [nop,nop,TS val 812127115 ecr 486518288], length 0
+16:36:33.256162 IP 198.96.84.204.48758 > comp3133Droplet1.ssh: Flags [.], ack 23860, win 4089, options [nop,nop,TS val 812127115 ecr 486518288], length 0
+16:36:33.256225 IP 198.96.84.204.48758 > comp3133Droplet1.ssh: Flags [.], ack 24064, win 4083, options [nop,nop,TS val 812127115 ecr 486518288], length 0
+16:36:33.256241 IP 198.96.84.204.48758 > comp3133Droplet1.ssh: Flags [.], ack 24268, win 4076, options [nop,nop,TS val 812127115 ecr 486518288], length 0
+16:36:33.256551 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 36328:37468, ack 1, win 350, options [nop,nop,TS val 486518297 ecr 812127115], length 1140
+16:36:33.256716 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 37468:37680, ack 1, win 350, options [nop,nop,TS val 486518297 ecr 812127115], length 212
+16:36:33.256864 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 37680:37884, ack 1, win 350, options [nop,nop,TS val 486518298 ecr 812127115], length 204
+16:36:33.257019 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 37884:38088, ack 1, win 350, options [nop,nop,TS val 486518298 ecr 812127115], length 204
+16:36:33.257145 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 38088:38292, ack 1, win 350, options [nop,nop,TS val 486518298 ecr 812127115], length 204
+16:36:33.257261 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 38292:38496, ack 1, win 350, options [nop,nop,TS val 486518298 ecr 812127115], length 204
+16:36:33.257380 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 38496:38700, ack 1, win 350, options [nop,nop,TS val 486518298 ecr 812127115], length 204
+16:36:33.257502 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 38700:38904, ack 1, win 350, options [nop,nop,TS val 486518298 ecr 812127115], length 204
+16:36:33.257617 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 38904:39108, ack 1, win 350, options [nop,nop,TS val 486518298 ecr 812127115], length 204
+16:36:33.257859 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 39108:39312, ack 1, win 350, options [nop,nop,TS val 486518299 ecr 812127115], length 204
+16:36:33.258015 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 39312:39516, ack 1, win 350, options [nop,nop,TS val 486518299 ecr 812127115], length 204
+16:36:33.258138 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 39516:39720, ack 1, win 350, options [nop,nop,TS val 486518299 ecr 812127115], length 204
+16:36:33.258252 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 39720:39924, ack 1, win 350, options [nop,nop,TS val 486518299 ecr 812127115], length 204
+16:36:33.258366 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 39924:40128, ack 1, win 350, options [nop,nop,TS val 486518299 ecr 812127115], length 204
+16:36:33.258480 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 40128:40332, ack 1, win 350, options [nop,nop,TS val 486518299 ecr 812127115], length 204
+16:36:33.258607 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 40332:40536, ack 1, win 350, options [nop,nop,TS val 486518299 ecr 812127115], length 204
+16:36:33.258720 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 40536:40740, ack 1, win 350, options [nop,nop,TS val 486518299 ecr 812127115], length 204
+16:36:33.258834 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 40740:40944, ack 1, win 350, options [nop,nop,TS val 486518300 ecr 812127115], length 204
+16:36:33.258955 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 40944:41148, ack 1, win 350, options [nop,nop,TS val 486518300 ecr 812127115], length 204
+16:36:33.259073 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 41148:41352, ack 1, win 350, options [nop,nop,TS val 486518300 ecr 812127115], length 204
+16:36:33.259195 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 41352:41556, ack 1, win 350, options [nop,nop,TS val 486518300 ecr 812127115], length 204
+16:36:33.285880 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 41556:41760, ack 1, win 350, options [nop,nop,TS val 486518327 ecr 812127115], length 204
+16:36:33.300599 IP 198.96.84.204.48758 > comp3133Droplet1.ssh: Flags [.], ack 27124, win 4089, options [nop,nop,TS val 812127116 ecr 486518290], length 0
+16:36:33.302884 IP 198.96.84.204.48758 > comp3133Droplet1.ssh: Flags [.], ack 27328, win 4083, options [nop,nop,TS val 812127116 ecr 486518291], length 0
+16:36:33.302939 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 41760:42160, ack 1, win 350, options [nop,nop,TS val 486518344 ecr 812127116], length 400
+16:36:33.302966 IP 198.96.84.204.48758 > comp3133Droplet1.ssh: Flags [.], ack 27532, win 4076, options [nop,nop,TS val 812127116 ecr 486518291], length 0
+16:36:33.302977 IP 198.96.84.204.48758 > comp3133Droplet1.ssh: Flags [.], ack 27736, win 4070, options [nop,nop,TS val 812127116 ecr 486518291], length 0
+16:36:33.302986 IP 198.96.84.204.48758 > comp3133Droplet1.ssh: Flags [.], ack 27940, win 4064, options [nop,nop,TS val 812127116 ecr 486518291], length 0
+16:36:33.302993 IP 198.96.84.204.48758 > comp3133Droplet1.ssh: Flags [.], ack 28144, win 4057, options [nop,nop,TS val 812127116 ecr 486518291], length 0
+16:36:33.302999 IP 198.96.84.204.48758 > comp3133Droplet1.ssh: Flags [.], ack 28348, win 4051, options [nop,nop,TS val 812127116 ecr 486518291], length 0
+16:36:33.303479 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 42160:43300, ack 1, win 350, options [nop,nop,TS val 486518344 ecr 812127119], length 1140
+16:36:33.303653 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 43300:43512, ack 1, win 350, options [nop,nop,TS val 486518344 ecr 812127119], length 212
+16:36:33.303790 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 43512:43716, ack 1, win 350, options [nop,nop,TS val 486518345 ecr 812127119], length 204
+16:36:33.303920 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 43716:43920, ack 1, win 350, options [nop,nop,TS val 486518345 ecr 812127119], length 204
+16:36:33.304038 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 43920:44124, ack 1, win 350, options [nop,nop,TS val 486518345 ecr 812127119], length 204
+16:36:33.304154 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 44124:44328, ack 1, win 350, options [nop,nop,TS val 486518345 ecr 812127119], length 204
+16:36:33.304271 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 44328:44532, ack 1, win 350, options [nop,nop,TS val 486518345 ecr 812127119], length 204
+16:36:33.304388 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 44532:44736, ack 1, win 350, options [nop,nop,TS val 486518345 ecr 812127119], length 204
+16:36:33.304503 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 44736:44940, ack 1, win 350, options [nop,nop,TS val 486518345 ecr 812127119], length 204
+16:36:33.304617 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 44940:45144, ack 1, win 350, options [nop,nop,TS val 486518345 ecr 812127119], length 204
+16:36:33.304732 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 45144:45348, ack 1, win 350, options [nop,nop,TS val 486518345 ecr 812127119], length 204
+16:36:33.304846 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 45348:45552, ack 1, win 350, options [nop,nop,TS val 486518346 ecr 812127119], length 204
+16:36:33.304962 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 45552:45756, ack 1, win 350, options [nop,nop,TS val 486518346 ecr 812127119], length 204
+16:36:33.308731 IP 198.96.84.204.48758 > comp3133Droplet1.ssh: Flags [.], ack 31220, win 4050, options [nop,nop,TS val 812127119 ecr 486518293], length 0
+16:36:33.308790 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 45756:45960, ack 1, win 350, options [nop,nop,TS val 486518350 ecr 812127119], length 204
+16:36:33.308831 IP 198.96.84.204.48758 > comp3133Droplet1.ssh: Flags [.], ack 31432, win 4044, options [nop,nop,TS val 812127119 ecr 486518293], length 0
+16:36:33.308855 IP 198.96.84.204.48758 > comp3133Droplet1.ssh: Flags [.], ack 31636, win 4037, options [nop,nop,TS val 812127119 ecr 486518293], length 0
+16:36:33.308868 IP 198.96.84.204.48758 > comp3133Droplet1.ssh: Flags [.], ack 31840, win 4031, options [nop,nop,TS val 812127119 ecr 486518293], length 0
+16:36:33.308879 IP 198.96.84.204.48758 > comp3133Droplet1.ssh: Flags [.], ack 32044, win 4025, options [nop,nop,TS val 812127119 ecr 486518293], length 0
+16:36:33.308888 IP 198.96.84.204.48758 > comp3133Droplet1.ssh: Flags [.], ack 32248, win 4018, options [nop,nop,TS val 812127119 ecr 486518294], length 0
+16:36:33.309361 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 45960:47100, ack 1, win 350, options [nop,nop,TS val 486518350 ecr 812127120], length 1140
+16:36:33.309510 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 47100:47312, ack 1, win 350, options [nop,nop,TS val 486518350 ecr 812127120], length 212
+16:36:33.309636 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 47312:47516, ack 1, win 350, options [nop,nop,TS val 486518350 ecr 812127120], length 204
+16:36:33.309844 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 47516:47720, ack 1, win 350, options [nop,nop,TS val 486518351 ecr 812127120], length 204
+16:36:33.309977 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 47720:47924, ack 1, win 350, options [nop,nop,TS val 486518351 ecr 812127120], length 204
+16:36:33.310096 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 47924:48128, ack 1, win 350, options [nop,nop,TS val 486518351 ecr 812127120], length 204
+16:36:33.310219 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 48128:48332, ack 1, win 350, options [nop,nop,TS val 486518351 ecr 812127120], length 204
+16:36:33.310335 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 48332:48536, ack 1, win 350, options [nop,nop,TS val 486518351 ecr 812127120], length 204
+16:36:33.310454 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 48536:48740, ack 1, win 350, options [nop,nop,TS val 486518351 ecr 812127120], length 204
+16:36:33.310569 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 48740:48944, ack 1, win 350, options [nop,nop,TS val 486518351 ecr 812127120], length 204
+16:36:33.310685 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 48944:49148, ack 1, win 350, options [nop,nop,TS val 486518351 ecr 812127120], length 204
+16:36:33.310828 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 49148:49352, ack 1, win 350, options [nop,nop,TS val 486518352 ecr 812127120], length 204
+16:36:33.310950 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 49352:49556, ack 1, win 350, options [nop,nop,TS val 486518352 ecr 812127120], length 204
+16:36:33.311076 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 49556:49760, ack 1, win 350, options [nop,nop,TS val 486518352 ecr 812127120], length 204
+16:36:33.311387 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 49760:49964, ack 1, win 350, options [nop,nop,TS val 486518352 ecr 812127120], length 204
+16:36:33.311525 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 49964:50168, ack 1, win 350, options [nop,nop,TS val 486518352 ecr 812127120], length 204
+16:36:33.311644 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 50168:50372, ack 1, win 350, options [nop,nop,TS val 486518352 ecr 812127120], length 204
+16:36:33.311764 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 50372:50576, ack 1, win 350, options [nop,nop,TS val 486518352 ecr 812127120], length 204
+16:36:33.311879 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 50576:50780, ack 1, win 350, options [nop,nop,TS val 486518353 ecr 812127120], length 204
+16:36:33.311994 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 50780:50984, ack 1, win 350, options [nop,nop,TS val 486518353 ecr 812127120], length 204
+16:36:33.312111 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 50984:51188, ack 1, win 350, options [nop,nop,TS val 486518353 ecr 812127120], length 204
+16:36:33.312227 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 51188:51392, ack 1, win 350, options [nop,nop,TS val 486518353 ecr 812127120], length 204
+16:36:33.312345 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 51392:51596, ack 1, win 350, options [nop,nop,TS val 486518353 ecr 812127120], length 204
+16:36:33.433861 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [P.], seq 51596:51800, ack 1, win 350, options [nop,nop,TS val 486518475 ecr 812127120], length 204
+16:36:33.482164 IP 198.96.84.204.48758 > comp3133Droplet1.ssh: Flags [P.], seq 1:37, ack 35308, win 4096, options [nop,nop,TS val 812127228 ecr 486518296], length 36
+16:36:33.482243 IP 198.96.84.204.48758 > comp3133Droplet1.ssh: Flags [P.], seq 1:37, ack 35308, win 4096, options [nop,nop,TS val 812127309 ecr 486518296], length 36
+16:36:33.482270 IP comp3133Droplet1.ssh > 198.96.84.204.48758: Flags [.], ack 37, win 350, options [nop,nop,TS val 486518523 ecr 812127309,nop,nop,sack 1 {1:37}], length 0
+^C
+263 packets captured
+377 packets received by filter
+114 packets dropped by kernel
