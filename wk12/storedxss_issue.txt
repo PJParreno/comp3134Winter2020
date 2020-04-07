@@ -1,0 +1,4 @@
+Issues
+—————-
+
+The issue I see with this type of attack is the user will never be aware of what is going on. they will never know that they are being attacked. The view for the user will always remain the same but the script will be running without there knowledge giving the attacker a clear advantage. This can lead to sensitive information being leaked without the users knowledge. JavaScript injections can lead to many vulnerability and different types of attacks.
