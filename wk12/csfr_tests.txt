@@ -1,0 +1,9 @@
+Observations
+------------
+
+Session is a great way to deal with all this attacks. Its always better to establish a session on a 
+web page in order to tighten security and make sure no one is getting in when they are not suppose to
+with the right configuration in the code.
+
+Als csfr_forms.php was the most useful in validation because it makes sure everything is in order 
+before entering the site - like estabishing the sesson in this form rather then the actual site.
