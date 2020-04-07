@@ -1,0 +1,12 @@
+#1
+
+As expected the row with query - “Ben” shows up as intented
+
+#2
+
+Row with query ‘ Ben’— ’ still triggered the query but it was not complete
+
+#3 
+
+No rows showed up when query was “ ‘Ben’ or 1=1’ ” this query did not match any column
+Or values. The SQL injection did not work which was also expected
